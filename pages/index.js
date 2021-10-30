@@ -12,16 +12,13 @@ import ProductsBanner from '../components/homepage/ProductsBanner';
 const Home = () => (
   <Root transparentHeader={true}>
     <Head>
-      <title>Home | commerce</title>
+      <title>Home | Muebles Alce</title>
     </Head>
 
     <HeroSection />
     <HomeBanner />
-    <CategoryBanner />
     <ProductsBanner />
-    <ExploreBanner />
     <SocialMedia />
-    <Footer />
   </Root>
 );
 

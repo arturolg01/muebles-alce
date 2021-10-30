@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const imagesInfo = [
   {
-    image: '/images/insta/1.png',
+    image: '/images/insta/1.jpg',
     translateRatio: -50
   },
   {
@@ -79,12 +79,12 @@ export default class SocialMedia extends React.Component {
                 className="font-size-display1 mb-3"
                 style={{ maxWidth: '26rem' }}
               >
-                Follow us on Instagram for more updates
+                Síguenos en Redes Sociales
               </p>
               <div className="d-flex">
-                <Link href="/about">
+                <Link href="http://www.instagram.com/mueblesalce/?hl=es">
                   <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
-                    <p className="mr-3">Follow us</p>
+                    <p className="mr-3">Muebles ALCE en Instagram</p>
                     <img src="/icon/arrow-long-right.svg" alt="Arrow icon"/>
                   </a>
                 </Link>
